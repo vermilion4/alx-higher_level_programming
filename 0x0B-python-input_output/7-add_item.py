@@ -13,4 +13,3 @@ if __name__ == "__main__":
         my_list = []
     my_list += sys.argv[1:]
     save_to_json_file(my_list, filename)
-    print(my_list)
